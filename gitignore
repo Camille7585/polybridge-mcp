@@ -1,0 +1,22 @@
+node_modules/
+dist/
+build/
+
+# Config file contains API keys — NEVER commit this.
+polybridge-mcp.config.json
+
+# Workspace and logs
+workspace/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# n8n data volume
+data/
