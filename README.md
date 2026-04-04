@@ -696,3 +696,13 @@ Created by Fabien Conéjéro (FC84) in April 2026.
 #
 
 Medium : https://medium.com/@fabien-conejero/polybridge-mcp-4d570c1caf5c
+
+##
+
+## ༄☕︎︎︎ Buy Me A Coffee :
+
+<a href="https://donate.stripe.com/3cI6oH1nUgsy8WZdVHgEg00" target="_blank" rel="noopener noreferrer"><img src="https://github.com/madjeek-web/eventflow/raw/main/Buy_Me _A_Coffee.jpg" alt="Buy Me A Coffee image" width="25%" height="25%"></a>
+
+༄☕︎︎︎ [stripe.com](https://donate.stripe.com/3cI6oH1nUgsy8WZdVHgEg00)
+
+. Thank you for your support
