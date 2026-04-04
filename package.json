@@ -1,0 +1,81 @@
+{
+  "name": "polybridge-mcp",
+  "version": "1.0.0",
+  "description": "A universal multi-bridge MCP hub — connect any LLM to n8n, Blender, Notion and more through a single pedagogical gateway.",
+  "author": "Fabien Conéjéro (FC84) <convergence-tech@proton.me>",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "llm",
+    "claude",
+    "openai",
+    "gemini",
+    "ollama",
+    "n8n",
+    "blender",
+    "notion",
+    "automation",
+    "agentic-ai",
+    "bridge",
+    "gateway",
+    "pedagogical",
+    "open-source",
+    "workflow"
+  ],
+  "homepage": "https://github.com/madjeek-web/polybridge-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madjeek-web/polybridge-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/madjeek-web/polybridge-mcp/issues"
+  },
+
+  "type": "module",
+
+  "main": "./dist/server/index.js",
+  "exports": {
+    ".": "./dist/server/index.js",
+    "./adapters": "./dist/adapters/llm/index.js"
+  },
+
+  "bin": {
+    "polybridge": "./dist/server/index.js"
+  },
+
+  "scripts": {
+    "build":    "tsc --project tsconfig.json",
+    "dev":      "tsx watch src/server/index.ts",
+    "start":    "node dist/server/index.js",
+    "lint":     "eslint src --ext .ts",
+    "test":     "NODE_OPTIONS=--experimental-vm-modules jest",
+    "clean":    "rm -rf dist",
+    "typecheck":"tsc --noEmit",
+    "recipe":   "tsx src/utils/recipe-cli.ts"
+  },
+
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "@notionhq/client":          "^2.3.0",
+    "ws":                        "^8.18.0",
+    "zod":                       "^3.23.0"
+  },
+
+  "devDependencies": {
+    "@types/jest":               "^29.5.0",
+    "@types/node":               "^20.0.0",
+    "@types/ws":                 "^8.5.0",
+    "eslint":                    "^9.0.0",
+    "jest":                      "^29.7.0",
+    "ts-jest":                   "^29.2.0",
+    "tsx":                       "^4.11.0",
+    "typescript":                "^5.4.0",
+    "typescript-eslint":         "^8.0.0"
+  },
+
+  "engines": {
+    "node": ">=20.0.0",
+    "npm":  ">=10.0.0"
+  }
+}

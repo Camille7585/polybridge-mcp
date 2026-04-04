@@ -1,0 +1,37 @@
+{
+  "server": {
+    "name"    : "polybridge-mcp",
+    "version" : "1.0.0",
+
+    "pedagogy": {
+      "enabled"   : true,
+      "verbosity" : "verbose",
+      "logFile"   : null
+    }
+  },
+
+  "bridges": {
+    "n8n": {
+      "enabled" : false,
+      "baseUrl" : "http://localhost:5678",
+      "apiKey"  : "YOUR_N8N_API_KEY_HERE"
+    },
+
+    "blender": {
+      "enabled": false,
+      "wsPort" : 9877
+    },
+
+    "notion": {
+      "enabled": false,
+      "apiKey" : "secret_YOUR_NOTION_INTEGRATION_TOKEN_HERE"
+    },
+
+    "filesystem": {
+      "enabled"     : true,
+      "allowedPaths": ["./workspace"],
+      "allowWrite"  : true,
+      "allowDelete" : false
+    }
+  }
+}

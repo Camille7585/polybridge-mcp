@@ -1,0 +1,71 @@
+version: "3.8"
+
+# docker-compose.yml
+#
+# This file orchestrates two containers :
+#   - n8n     : the workflow automation engine
+#   - polybridge : the MCP server itself
+#
+# Run everything with :
+#   docker-compose up -d
+#
+# Stop everything with :
+#   docker-compose down
+#
+# View logs :
+#   docker-compose logs -f
+
+services:
+
+  # ---------------------------------------------------------------------------
+  # n8n — workflow automation engine
+  # Access the UI at http://localhost:5678
+  # ---------------------------------------------------------------------------
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: polybridge-n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      # These credentials are for the n8n UI (first-time setup).
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=changeme
+      # Allow the polybridge container to connect without CORS issues.
+      - N8N_HOST=0.0.0.0
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://localhost:5678/
+    volumes:
+      # Persist n8n data (workflows, credentials, executions) on the host.
+      - ./data/n8n:/home/node/.n8n
+    networks:
+      - polybridge-net
+
+  # ---------------------------------------------------------------------------
+  # polybridge-mcp — the MCP server
+  # This container runs in "attached" mode so Claude Desktop can connect
+  # to it via stdio. In most setups you will run this directly with node,
+  # not via Docker. This service is included for completeness.
+  # ---------------------------------------------------------------------------
+  polybridge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: polybridge-mcp
+    restart: unless-stopped
+    depends_on:
+      - n8n
+    environment:
+      - POLYBRIDGE_CONFIG=/app/polybridge-mcp.config.json
+    volumes:
+      # Mount your config file into the container.
+      - ./polybridge-mcp.config.json:/app/polybridge-mcp.config.json:ro
+      # Mount the workspace so the filesystem bridge works.
+      - ./workspace:/app/workspace
+    networks:
+      - polybridge-net
+
+networks:
+  polybridge-net:
+    driver: bridge
