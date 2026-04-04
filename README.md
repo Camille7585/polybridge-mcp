@@ -691,4 +691,8 @@ The most needed contributions right now :
 
 MIT License. See [LICENSE](LICENSE).
 
+#
+
+Medium : https://medium.com/@fabien-conejero/polybridge-mcp-4d570c1caf5c
+
 Created by Fabien Conéjéro (FC84) in April 2026.
