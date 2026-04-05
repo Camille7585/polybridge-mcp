@@ -15,7 +15,9 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-0EA5E9.svg)]()
 [![Pedagogical](https://img.shields.io/badge/Made%20for-Learners-F59E0B.svg)]()
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 
 Here’s what’s unique: no existing project simultaneously combines an MCP hub with n8n as the backbone orchestration engine (not just a target), creative bridges (Blender), a pedagogical transparency layer that makes the invisible visible, and an LLM-agnostic architecture with a ready-to-use “recipes” system.
@@ -35,7 +37,9 @@ There are existing MCP gateways (Bifrost, ContextForge, MetaMCP), but none of th
 - An architecture explicitly designed for teaching
 
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 
 **One MCP server. Any LLM. Every tool.**
@@ -46,7 +50,9 @@ It was designed with one goal that most production gateways ignore : **making th
 
 > Created by Fabien Conéjéro (FC84) in April 2026 under MIT license.
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Table of Contents
 
@@ -70,7 +76,9 @@ It was designed with one goal that most production gateways ignore : **making th
 - [Contributing](#contributing)
 - [License](#license)
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## What is this, exactly ?
 
@@ -125,7 +133,9 @@ Example 3 : "Create a project page in Notion"
   Claude  <-- MCP -->  polybridge-mcp  <-- HTTP API -->  Notion
 ```
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Why does this exist ?
 
@@ -135,7 +145,9 @@ There are already excellent MCP gateways out there (Bifrost, ContextForge, MetaM
 
 It is the first MCP hub designed explicitly as a learning platform. Every file is heavily commented. Every design choice is explained. The **Pedagogical Transparency Layer** (PTL) logs every step of every action in plain English so you can watch the protocol work in real time.
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Architecture overview
 
@@ -173,7 +185,9 @@ It is the first MCP hub designed explicitly as a learning platform. Every file i
 
 4. **Pedagogical Transparency Layer** - Every tool call generates a human-readable explanation. Students can watch exactly what happens at each step.
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Features
 
@@ -200,7 +214,9 @@ It is the first MCP hub designed explicitly as a learning platform. Every file i
 - PTL output can be piped to a log file or a classroom projector
 - Included examples cover beginner, intermediate, and advanced use cases
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Prerequisites
 
@@ -218,7 +234,9 @@ You need these tools installed before starting :
 - A Notion account (optional, only for Notion bridge)
 - Any LLM API key (optional, only if using the built-in client adapters)
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Quick start
 
@@ -290,7 +308,9 @@ claude mcp add polybridge node /absolute/path/to/polybridge-mcp/dist/server/inde
 
 **For Cursor or Windsurf**, follow the same pattern as Claude Desktop using their respective MCP configuration files.
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Configuration
 
@@ -342,7 +362,9 @@ The main configuration file is `polybridge-mcp.config.json`. Here is the full re
 | `verbose` | Full step-by-step breakdown |
 | `debug` | Protocol-level messages |
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Bridges
 
@@ -447,7 +469,9 @@ Create and update database entries
 4. Share the pages/databases you want to access with your integration
 5. Paste the token into your config file
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ### Filesystem bridge
 
@@ -672,7 +696,9 @@ polybridge-mcp/
 └── tsconfig.json
 ```
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Contributing
 
@@ -685,7 +711,9 @@ The most needed contributions right now :
 - New recipes
 - Tests
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## License
 
@@ -693,7 +721,9 @@ MIT License. See [LICENSE](LICENSE).
 
 Created by Fabien Conéjéro (FC84) in April 2026.
 
-#
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 Medium : https://medium.com/@fabien-conejero/polybridge-mcp-4d570c1caf5c
 
