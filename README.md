@@ -490,7 +490,9 @@ Delete files (only if allowDelete is true)
 
 **Security note :** Always configure `allowedPaths` to point to a workspace folder, never to your home directory or system root.
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## LLM adapters
 
@@ -553,7 +555,9 @@ A recipe is a simple JSON file in `docs/recipes/`. See [docs/recipes/README.md](
 | `file-summarizer` | Reads files from a folder and creates an AI summary |
 | `notion-to-blender` | Reads a Notion page and generates a 3D scene from it |
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Pedagogical Transparency Layer
 
@@ -592,7 +596,9 @@ This output is the protocol made visible. When teaching a class, you can project
 }
 ```
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## API reference
 
@@ -617,7 +623,9 @@ fs_write_file
 fs_list_directory
 ```
 
----
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## Project structure
 
@@ -727,7 +735,9 @@ Created by Fabien Conéjéro (FC84) in April 2026.
 
 Medium : https://medium.com/@fabien-conejero/polybridge-mcp-4d570c1caf5c
 
-##
+<p align="center">
+  <img src="https://github.com/madjeek-web/about/raw/main/hr.png" alt="separator" width="300" height="3">
+</p>
 
 ## ༄☕︎︎︎ Buy Me A Coffee :
 
